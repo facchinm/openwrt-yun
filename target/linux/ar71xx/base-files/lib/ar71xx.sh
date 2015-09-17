@@ -174,6 +174,9 @@ ar71xx_board_detect() {
 	*AP121-MINI)
 		name="ap121-mini"
 		;;
+	*"Dragino v2")
+		name="dragino2"
+		;;
 	*"AP136 reference board")
 		name="ap136"
 		;;
@@ -444,13 +447,10 @@ ar71xx_board_detect() {
 	*EmbWir-Dorin-Router)
 		name="ew-dorin-router"
 		;;
-	*"Arduino Yun")
-		name="yun"
-		;;
 	esac
 
 	case "$machine" in
-	*TL-WR* | *TL-WA* | *TL-MR* | *TL-WD*)
+	*TL-WR* | *TL-WA* | *TL-MR*)
 		tplink_board_detect "$machine"
 		;;
 	esac

@@ -70,6 +70,9 @@ get_status_led() {
 	dir-825-b1)
 		status_led="d-link:orange:power"
 		;;
+	dragino2)
+		status_led="dragino2:red:system"
+		;;
 	eap7660d)
 		status_led="eap7660d:green:ds4"
 		;;
