@@ -6,7 +6,7 @@
 #
 
 define Profile/YUN101
-	NAME:=YUN101
+	NAME:=Arduino Yun 101
 	PACKAGES:=kmod-ath9k kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
 endef
 
