@@ -93,6 +93,7 @@ platform_check_image() {
 	db120 | \
 	hornet-ub | \
 	zcn-1523h-2 | \
+	yun | \
 	zcn-1523h-5)
 		[ "$magic_long" != "68737173" -a "$magic_long" != "19852003" ] && {
 			echo "Invalid image type."
@@ -105,6 +106,7 @@ platform_check_image() {
 	dir-600-a1 | \
 	dir-615-c1 | \
 	dir-615-e4 | \
+	yun101 | \
 	dragino2 | \
 	ew-dorin | \
 	ew-dorin-router | \

@@ -73,6 +73,9 @@ get_status_led() {
 	dragino2)
 		status_led="dragino2:red:system"
 		;;
+        yun101)
+                status_led="yun101:red:system"
+                ;;
 	eap7660d)
 		status_led="eap7660d:green:ds4"
 		;;

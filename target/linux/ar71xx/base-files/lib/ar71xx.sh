@@ -177,6 +177,9 @@ ar71xx_board_detect() {
 	*"Dragino v2")
 		name="dragino2"
 		;;
+        *"YUN 101")
+                name="yun101"
+                ;;
 	*"AP136 reference board")
 		name="ap136"
 		;;
@@ -446,6 +449,9 @@ ar71xx_board_detect() {
 		;;
 	*EmbWir-Dorin-Router)
 		name="ew-dorin-router"
+		;;
+	*"Arduino Yun")
+		name="yun"
 		;;
 	esac
 

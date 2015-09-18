@@ -48,6 +48,12 @@ dragino2)
 	ucidef_set_led_netdev "wan" "WAN" "dragino2:red:wan" "eth1"
 	;;
 
+yun101)
+        ucidef_set_led_wlan "wlan" "WLAN" "yun101:red:wlan" "phy0tpt"
+        ucidef_set_led_netdev "lan" "LAN" "yun101:red:lan" "eth0"
+        ucidef_set_led_netdev "wan" "WAN" "yun101:red:wan" "eth1"
+        ;;
+
 rb750)
 	ucidef_set_led_default "act" "act" "rb750:green:act" "1"
 	ucidef_set_led_netdev "port1" "port1" "rb750:green:port1" "eth1"
