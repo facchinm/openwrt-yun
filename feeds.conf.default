@@ -1,4 +1,4 @@
-src-svn packages https://github.com/arduino/openwrt-packages-yun/trunk
+src-git packages https://github.com/facchinm/openwrt-packages-yun.git;yun101
 src-svn xwrt http://x-wrt.googlecode.com/svn/trunk/package
 src-svn luci https://github.com/openwrt/luci/branches/luci-0.11/
 src-git routing git://github.com/openwrt-routing/packages.git;for-12.09.x
